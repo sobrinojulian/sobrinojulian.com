@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "eleventy --serve --quiet",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "js-beautify": "^1.14.8",
+    "js-yaml": "^4.1.0",
+    "luxon": "^3.3.0"
+  }
+}
