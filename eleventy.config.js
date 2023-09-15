@@ -5,6 +5,7 @@ const pluginRss = require('@11ty/eleventy-plugin-rss')
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy')
 
 const OUTPUT_DIRECTORY = '_site'
+const IS_PRODUCTION = process.env.ELEVENTY_RUN_MODE === 'build'
 
 module.exports = function (eleventyConfig) {
   // Copy
@@ -20,8 +21,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISODate()
   })
 
-  // Transforms
-  eleventyConfig.addTransform('prettifyHTML', prettifyHTML)
+  if (IS_PRODUCTION) {
+    // Transforms
+    eleventyConfig.addTransform('prettifyHTML', prettifyHTML)
+  }
 
   return {
     dir: {

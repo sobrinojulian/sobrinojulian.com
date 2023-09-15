@@ -6,11 +6,10 @@ For those interested I try to keep the details of the blog up-to-date with the i
 
 ## Website Fast Facts
 
-| Parameter | Source |
-|---|---|
-|Built with:|[barf](https://barf.bt.ht)|
-|Hosted on:|[SourceHut Pages](https://srht.site/)|
-|Source code available:|[SourceHut](https://git.sr.ht/~bt/bt.ht)|
-|Licensed under:|[MIT](https://git.sr.ht/~bt/bt.ht/tree/master/item/LICENSE)|
-|Developed on:|ThinkPad X201|
-|Operating system:|OpenBSD|
+| Parameter              | Source                                                                      |
+| ---------------------- | --------------------------------------------------------------------------- |
+| Built with:            | [11ty](https://www.11ty.dev/)                                               |
+| Hosted on:             | [Netlify](https://netlify.com/)                                             |
+| Source code available: | [Github](https://github.com/sobrinojulian/sobrinojulian.com)                |
+| Source licensed:       | [MIT](https://github.com/sobrinojulian/sobrinojulian.com/blob/main/license) |
+| Content licensed:      | [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/)                 |

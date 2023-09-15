@@ -6,19 +6,24 @@ This page contains a somewhat up-to-date listing of all hardware and software th
 
 I'm proud to support open source products and privacy-respecting communities. The list is limited right now, but the plan is to expand this over time. My current, self-imposed FOSS contributing "budget" is **$13 USD**.
 
-|Service|Cost/month|
-|-------|--------------|
-|[sourcehut](https://sourcehut.org)<br>Open source code forge.|$5.00|
-|[mullvad](https://mullvad.net)<br>Privacy focused VPN service provider.|$5.00|
-|[fosstodon](https://fosstodon.org)<br>My main "social media" online presence.|$3.00|
+| Service                                                                       | Cost/month |
+| ----------------------------------------------------------------------------- | ---------- |
+| [sourcehut](https://sourcehut.org)<br>Open source code forge.                 | $5.00      |
+| [mullvad](https://mullvad.net)<br>Privacy focused VPN service provider.       | $5.00      |
+| [fosstodon](https://fosstodon.org)<br>My main "social media" online presence. | $3.00      |
 
 ## Laptops
 
-- **ThinkPad X201**
-  - CPU: Intel i5 M 520 (4) @ 2.400GHz
-  - RAM: 8GB
-  - Storage: 128GB SSD
-  - OS: OpenBSD ([see build](https://git.sr.ht/~bt/open-suck))
+- **ThinkPad T430**
+  - CPU: Intel i5-3320M (4) @ 2.600GHz
+  - RAM: 16GB @ 1300.0 MHz
+  - Storage:
+    - 256GB mSata SSD
+    - 1TB HDD
+    - 1TB HDD
+  - OS:
+    - Arch Linux ([see build](https://github.com/sjarbs/linux))
+    - Windows 10 IoT Enterprise LTSC 2021 ([see build](https://github.com/sjarbs/windows))
 
 ## Accessories
 

@@ -1,8 +1,8 @@
 module.exports = {
-  title: "~bt",
-  url: "https://btht.netlify.app/",
+  title: "~sj",
+  url: "https://sobrinojulian.netlify.app/",
   language: "en",
   author: {
-    name: "Bradley Taunt"
+    name: "Sobrino Julian"
   }
 }
