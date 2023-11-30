@@ -1,5 +1,5 @@
 {
   "permalink": "/{{ page.fileSlug }}/",
   "tags": ["posts"],
-  "layout": "post.md"
+  "layout": "prose.njk"
 }

@@ -3,6 +3,7 @@ const beautify = require('js-beautify')
 const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy')
+const timeToRead = require('eleventy-plugin-time-to-read')
 
 const OUTPUT_DIRECTORY = '_site'
 const IS_PRODUCTION = process.env.ELEVENTY_RUN_MODE === 'build'
@@ -15,11 +16,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin)
+  eleventyConfig.addPlugin(timeToRead)
 
   // Filters
   eleventyConfig.addFilter('ISODate', dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISODate()
   })
+  eleventyConfig.addFilter('date', function (value, format) {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date(value).toLocaleDateString(undefined, options);
+  });
 
   if (IS_PRODUCTION) {
     // Transforms

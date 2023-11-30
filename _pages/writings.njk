@@ -1,0 +1,32 @@
+<header>
+  <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Writings</h1>
+</header>
+<section class="flex flex-col max-w-full prose lg:flex-row dark:prose-invert mt-0 mb-12">
+  <div class="min-w-0 min-h-0 max-w-prose">
+    <div class="lead !mb-9 text-xl">My thoughts, ideas and experiences with the things I find interesting</div>
+  </div>
+</section>
+
+<hr class="border-dotted w-36 border-neutral-400">
+<section class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 pt-4">
+  {%- for post in collections.posts %}
+    <article class="flex flex-row max-w-prose items-center">
+      <div class="flex-none pr-4 sm:pr-6">
+        <a href="{{ post.url }}">
+          <img class="w-24 rounded-md sm:w-28" src="/images/thumbnails/{{ post.data.thumbnail }}">
+        </a>
+      </div>
+      <div class="flex flex-col text-sm text-neutral-500 dark:text-neutral-400">
+        <h3 class="flex items-center text-xl font-semibold">
+          <a class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+        <div class="flex flex-row flex-wrap items-center">
+          <time datetime="{{ post.date | ISODate }}">{{ post.date | date("D MMMM YYYY") }}</time>
+          <span class="px-2 text-primary-500">·</span>
+          <span title="Reading time">{{ post.content | timeToRead }}</span>
+        </div>
+      </div>
+    </div>
+  </article>
+{%- endfor %}
+</section>

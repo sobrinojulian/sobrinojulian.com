@@ -8,13 +8,15 @@
     "build:eleventy": "cross-env NODE_ENV=production eleventy",
     "build:tailwind": "cross-env NODE_ENV=production tailwindcss -i tailwind.css -o _site/tailwind.css --minify",
     "start": "run-p dev:*",
-    "clean": "rimraf _site"
+    "clean": "rimraf _site",
+    "debug": "cross-env DEBUG=Eleventy* eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@tailwindcss/typography": "^0.5.10",
     "cross-env": "^7.0.3",
+    "eleventy-plugin-time-to-read": "^1.3.0",
     "js-beautify": "^1.14.11",
     "js-yaml": "^4.1.0",
     "luxon": "^3.4.4",

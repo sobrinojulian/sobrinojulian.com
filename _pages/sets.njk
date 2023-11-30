@@ -1,0 +1,31 @@
+<header>
+  <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">DJ Sets</h1>
+</header>
+<section class="flex flex-col max-w-full prose lg:flex-row dark:prose-invert mt-0 mb-12">
+  <div class="min-w-0 min-h-0 max-w-prose">
+    <div class="lead !mb-9 text-xl">Lorem Ipsum</div>
+  </div>
+</section>
+
+<section>
+    <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">{{ year }}</h2>
+    <hr class="border-dotted w-36 border-neutral-400">
+
+    {%- for post in collections.posts | reverse %}
+      <article class="flex flex-row mt-6 max-w-prose">
+        <div>
+          <h3 class="flex items-center text-xl font-semibold">
+            <a class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+               href="{{ post.url }}">{{ post.data.title }}</a>
+          </h3>
+          <div class="text-sm text-neutral-500 dark:text-neutral-400">
+            <div class="flex flex-row flex-wrap items-center">
+              <time datetime="{{ post.date | ISODate }}">{{ post.date | date("D MMMM YYYY") }}</time>
+              <span class="px-2 text-primary-500">·</span>
+              <span title="Reading time">{{ post.content | timeToRead }}</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    {%- endfor %}
+</section>
