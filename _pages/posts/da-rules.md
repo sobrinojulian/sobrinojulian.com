@@ -3,6 +3,8 @@ title: Da Rules
 date: 2023-06-01
 thumbnail: da-rules.png
 tags: computing
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices vestibulum nulla, nec fringilla purus iaculis sed. Curabitur nec nibh dolor. Mauris vel volutpat lorem. Aliquam erat volutpat. Ut congue risus et nunc lobortis iaculis. Pellentesque tristique, lectus eu auctor facilisis, sem purus viverra tellus, non faucibus velit lacus at justo. Quisque nec metus eleifend, congue tortor ut, pulvinar lectus.

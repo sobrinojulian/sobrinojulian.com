@@ -8,10 +8,11 @@
 </section>
 
 <hr class="border-dotted w-36 border-neutral-400">
-<section class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8 pt-4">
+
+<section class="grid grid-cols-1 sm:grid-cols-2 gap-4">
   {%- for post in collections.posts %}
-    <article class="flex flex-row max-w-prose items-center">
-      <div class="flex-none pr-4 sm:pr-6">
+    <article class="flex gap-4 max-w-prose items-center">
+      <div class="">
         <a href="{{ post.url }}">
           <img class="w-24 rounded-md sm:w-28" src="/images/thumbnails/{{ post.data.thumbnail }}">
         </a>
@@ -22,8 +23,8 @@
         </h3>
         <div class="flex flex-row flex-wrap items-center">
           <time datetime="{{ post.date | ISODate }}">{{ post.date | date("D MMMM YYYY") }}</time>
-          <span class="px-2 text-primary-500">·</span>
-          <span title="Reading time">{{ post.content | timeToRead }}</span>
+          <span class="px-2 text-primary-500 invisible sm:visible">·</span>
+          <span class="invisible sm:visible" title="Reading time">{{ post.content | timeToRead }}</span>
         </div>
       </div>
     </div>
