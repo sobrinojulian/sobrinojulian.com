@@ -4,6 +4,9 @@ const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy')
 const timeToRead = require('eleventy-plugin-time-to-read')
+// markdown-it
+const MarkdownIt = require('markdown-it');
+const MarkdownItGitHubAlerts = require('markdown-it-github-alerts');
 
 const OUTPUT_DIRECTORY = '_site'
 const IS_PRODUCTION = process.env.ELEVENTY_RUN_MODE === 'build'
@@ -26,6 +29,11 @@ module.exports = function (eleventyConfig) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     return new Date(value).toLocaleDateString(undefined, options);
   });
+
+  // markdown-it
+  eleventyConfig.amendLibrary("md", mdLib => mdLib.use(MarkdownItGitHubAlerts));
+
+
 
   if (IS_PRODUCTION) {
     // Transforms

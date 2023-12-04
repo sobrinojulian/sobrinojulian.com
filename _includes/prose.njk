@@ -1,12 +1,9 @@
----
-layout: default.njk
----
 <article>
-  {% include "_proseHeader.njk" %}
+  {% include "prose/header.njk" %}
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     <div class="min-w-0 min-h-0 max-w-prose grow">
       {{ content | safe }}
     </div>
   </section>
-  {% include "_proseFooter.njk" %}
+  {% include "prose/footer.njk" %}
 </article>
