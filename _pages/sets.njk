@@ -8,24 +8,35 @@
 </section>
 
 <section>
-    <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">{{ year }}</h2>
-    <hr class="border-dotted w-36 border-neutral-400">
-
-    {%- for post in collections.posts | reverse %}
-      <article class="flex flex-row mt-6 max-w-prose">
-        <div>
-          <h3 class="flex items-center text-xl font-semibold">
-            <a class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-               href="{{ post.url }}">{{ post.data.title }}</a>
-          </h3>
-          <div class="text-sm text-neutral-500 dark:text-neutral-400">
-            <div class="flex flex-row flex-wrap items-center">
-              <time datetime="{{ post.date | ISODate }}">{{ post.date | date("D MMMM YYYY") }}</time>
-              <span class="px-2 text-primary-500">·</span>
-              <span title="Reading time">{{ post.content | timeToRead }}</span>
-            </div>
-          </div>
+  <div class="flex items-center gap-4">
+    <div class="w-48">
+      <img src="/images/cover500x500.jpg" alt="Cover Image" />
+    </div>
+    <div class="w-full">
+      <!-- Header-->
+      <div class="flex gap-4 items-center">
+        <button id="playButton" class="bg-[#cc2900] p-4 rounded-full">
+          <img id="playButtonIcon" class="text-white" src="/svg/play.svg" alt="Play Button" />
+        </button>
+        <p class="title">Ascendant Vierge - Influenceur (Onelas Edit)</p>
+      </div>
+      <!-- Wave -->
+      <div id="waveform" class="h-full"></div>
+      <!-- Controls -->
+      <div class="flex justify-between">
+        <div class="flex gap-2">
+          <img id="volumeIcon" class="text-white" src="/svg/volume.svg" alt="Volume" />
+          <input id="volumeSlider" class="" type="range" name="volume-slider" min="0" max="100" value="50" />
         </div>
-      </article>
-    {%- endfor %}
+        <div class="timecode">
+          <span id="currentTime">00:00:00</span>
+          <span>/</span>
+          <span id="totalDuration">00:00:00</span>
+        </div>
+      </div>
+      <!-- end of player-->
+    </div>
+  </div>
 </section>
+<script src="https://unpkg.com/wavesurfer.js@5.0.1/dist/wavesurfer.js"></script>
+<script src="/script.js"></script>

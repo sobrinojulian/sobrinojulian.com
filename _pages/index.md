@@ -2,9 +2,9 @@
 layout: index.njk
 ---
 
-I love [tech](https://jamespanther.com/uses/) and regularly explore [projects](https://jamespanther.com/projects/) where I experiment with various open-source technologies. This website is where I share my [technology experiences](https://jamespanther.com/writings/). I also write about food at [Southside Kitchen](https://southsidekitchen.com).
+I love [tech](/uses) and regularly explore [projects](/projects) where I experiment with various open-source technologies. This website is where I share my [technology experiences](/writings). I also dj listen to my [latests mixes](/sets).
 
-[Learn more](https://jamespanther.com/about/), or send me an [email](mailto:hello@jamespanther.com) to get in touch.
+Send me an [email](mailto:sobrinojulian@pm.me) to get in touch.
 
-> [!NOTE]
-> I love [tech](https://jamespanther.com/uses/) and regularly explore [projects](https://jamespanther.com/projects/) where I experiment with various open-source technologies. This website is where I share my [technology experiences](https://jamespanther.com/writings/). I also write about food at [Southside Kitchen](https://southsidekitchen.com).
+> [!TIP]
+> I'm currently **available for hire** and excited about new opportunities. You can check out my resume in 🇬🇧 [English](/en.pdf) or 🇦🇷 [Spanish](/es.pdf).
