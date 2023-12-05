@@ -1,123 +1,163 @@
 installers_setups:
+  - name: My Computing
+    url: /windows
+    description: "🐛 Windows 10 IoT Enterprise LTSC 2021"
+    status: wip
+    language: "N/A"
+    language_color: "#FFFFFF"
+  - name: Windows
+    url: /windows
+    description: "🐛 Windows 10 IoT Enterprise LTSC 2021"
+    status: wip
+    language: "N/A"
+    language_color: "#FFFFFF"
   - name: Arch Cinnamon
     url: https://vs.bt.ht
-    description: "Void Linux desktop based on the suckless philosophy."
-
+    description: "🏗️ Custom Arch Linux installation with the Cinnamon desktop environment"
+    status: wip
+    language: "Shell"
+    language_color: "#89E051"
   - name: Arch WSL
     url: https://vs.bt.ht
-    description: "Void Linux desktop based on the suckless philosophy."
-
+    description: "🏗️ Custom Arch Linux installation for Windows Subsystem for Linux"
+    status: stable
+    language: "Shell"
+    language_color: "#89E051"
   - name: Arch XFCE
     url: https://vs.bt.ht
-    description: "Void Linux desktop based on the suckless philosophy."
-    status: archive
-
-  - name: Windows
-    url: https://vs.bt.ht
-    description: "Void Linux desktop based on the suckless philosophy."
-
+    description: "🏗️ Custom Arch Linux installation with the XFCE desktop environment"
+    status: abandoned
+    language: "Shell"
+    language_color: "#89E051"
   - name: Emacs
     url: https://vs.bt.ht
-    description: "Void Linux desktop based on the suckless philosophy."
-    status: archive
-clis:
-  - name: mortem-cli
-    description: "💀 Command-line death clock"
-    status: archive
-
-  - name: aquehorajuegaboca-cli
-    description: "⚽ CLI for aquehorajuegaboca.com.ar"
-    status: public
-
-  - name: xcolor-tailwind-cli
-    url: https://github.com/sobrinojulian/xcolor-tailwind-cli
-    description: "x11 tailwind color picker"
-
-  - name: 9z-cli
-    url: https://github.com/sobrinojulian/9z-cli
-    description: "cli for https://9z.games"
-
-  - name: ole-cli
-    url: https://github.com/sobrinojulian/ole-cli
-    description: "cli for ole.com.ar/agenda"
-
-  - name: timer-cli
-    url: https://github.com/sobrinojulian/timer-cli
-    description: "simple timer"
-
-  - name: weather-cli
-    url: https://github.com/sobrinojulian/weather-cli
+    description: "🏗️ Custom Emacs configuration setup"
+    status: abandoned
+    language: "Lisp"
+    language_color: "#3FB68B"
 
 web_tools:
   - name: sobrinojulian.com
     url: https://sobrinojulian.com/
-
+    description: "🌐 Personal website for sobrinojulian.com"
+    status: wip
+    language: "HTML"
+    language_color: "#E34C26"
   - name: cv
     url: https://cv.sobrinojulian.com/
-
+    description: "📄 Curriculum Vitae website"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
   - name: 123
     url: https://123.sobrinojulian.com/
+    description: "🔢 123.sobrinojulian.com website"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
 
-  - name: quartz
-    url: https://quartz.sobrinojulian.com/
+clis:
+  - name: ole-cli
+    url: https://github.com/sobrinojulian/ole-cli
+    description: "📅 Command-line interface for ole.com.ar/agenda"
+    status: stable
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: aquehorajuegaboca-cli
+    description: "⚽ CLI for aquehorajuegaboca.com.ar"
+    status: stable
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: timer-cli
+    url: https://github.com/sobrinojulian/timer-cli
+    description: "⏲️ Simple timer command-line tool"
+    status: stable
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: mortem-cli
+    description: "💀 Command-line death clock"
+    status: stable
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: xcolor-tailwind-cli
+    url: https://github.com/sobrinojulian/xcolor-tailwind-cli
+    description: "🌈 X11 Tailwind color picker command-line tool"
+    status: abandoned
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: 9z-cli
+    url: https://github.com/sobrinojulian/9z-cli
+    description: "🎮 Command-line interface for https://9z.games"
+    status: abandoned
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: weather-cli
+    url: https://github.com/sobrinojulian/weather-cli
+    description: "☁️ Command-line weather tool"
+    status: abandoned
+    language: "JavaScript"
+    language_color: "#F1E05A"
 
 clients_websites:
-  - name: somosliana.com
-    url: https://github.com/somosliana
-  - name: indecisovampiro.com.ar
-    url: https://github.com/indecisovampiro/indecisovampiro.com.ar
-
-  - name: sinoteinspiranoes.com
-    url: https://github.com/somosliana/sinoteinspiranoes.com
-
   - name: seguridadhigienetdf.com
     url: https://github.com/somosliana/seguridadhigienetdf.com
-
+    description: "🌐 Security and hygiene website for TdF"
+    status: wip
+    language: "HTML"
+    language_color: "#E34C26"
+  - name: somosliana.com
+    url: https://github.com/somosliana/somosliana.com
+    description: "🌐 Personal website for somosliana.com"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
+  - name: indecisovampiro.com.ar
+    url: https://github.com/indecisovampiro/indecisovampiro.com.ar
+    description: "🌐 Personal website for indecisovampiro.com.ar"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
+  - name: sinoteinspiranoes.com
+    url: https://github.com/somosliana/sinoteinspiranoes.com
+    description: "🌐 Personal website for sinoteinspiranoes.com"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
   - name: pillarsed.com
     url: https://github.com/somosliana/pillarsed.com
-
+    description: "🌐 Personal website for pillarsed.com"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
   - name: barbershopcream.com
     url: https://github.com/somosliana/barbershopcream.com
-    status: archive
-
+    description: "🌐 Personal website for barbershopcream.com"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
   - name: cintiasusnar.com
     url: https://github.com/somosliana/cintiasusnar.com
-    status: archive
-
+    description: "🌐 Personal website for cintiasusnar.com"
+    status: stable
+    language: "HTML"
+    language_color: "#E34C26"
   - name: gjsconsultora.com
     url: https://github.com/somosliana/gjsconsultora.com
-    status: archive
-
+    description: "🌐 Personal website for gjsconsultora.com"
+    status: abandoned
+    language: "HTML"
+    language_color: "#E34C26"
 
 experiments:
   - name: zone
     url: https://github.com/sobrinojulian/zone
-    description: "discord bot"
-    status: archive
-
+    description: "🤖 Discord bot experiment"
+    status: abandoned
+    language: "JavaScript"
+    language_color: "#F1E05A"
   - name: twitter-bookmarks-scraper
     url: https://github.com/sobrinojulian/twitter-bookmarks-scraper
-    status: archive
-
-
-
-#boilerplates:
-#  - name: NEAT Website Boilerplate
-#    url: [your_url_here]
-#
-#  - name: Node CLI Boilerplate
-#    url: [your_url_here]
-#
-#  - name: Jekyll Website Boilerplate
-#    url: [your_url_here]
-#
-#homeworks:
-#  - name: perreando.com.ar
-#    url: https://github.com/sobrinojulian/perreando.com.ar
-#    description: "MEVN app"
-#    status: archive
-#
-#  - name: TurnosSalud
-#    url: https://github.com/sobrinojulian/TurnosSalud
-#    description: "ASP.NET MVC app"
-#    status: archive
+    description: "🐦 Twitter bookmarks scraper experiment"
+    status: abandoned
+    language: "Python"
+    language_color: "#3572A5"
