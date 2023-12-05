@@ -1,0 +1,109 @@
+---
+layout: default.njk
+---
+{# About #}
+<header class="mb-3 flex flex-row items-center gap-8">
+  {# LEFT #}
+  <img class="mb-2 h-36 w-36 rounded-full" alt="{{ metadata.name }}" src="{{ metadata.avatar }}">
+  {# RIGHT #}
+  <div class="flex flex-col gap-2">
+    <h1 class="text-4xl font-extrabold">{{ metadata.name }}</h1>
+    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">{{ metadata.headline }}</h2>
+    {# SOCIAL #}
+    <div class="text-2xl">
+      <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+        {% for item in metadata.social %}
+        <a class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;" href="{{ item.url }}" target="_blank" aria-label="{{ item.title }}"
+          rel="me noopener noreferrer">
+          <span class="relative inline-block align-text-bottom px-1 icon">
+            {% include item.icon %}
+          </span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {# about #}
+    <div class="prose max-w-prose">
+      {{ content | safe }}
+    </div>
+    <hr class="border-dotted w-36 border-neutral-400 mt-6">
+  </div>
+</header>
+{# Projects #}
+<div x-data="{ wip: true, stable: true, abandoned: false }">
+  <header class="flex flex-col gap-4 justify-around mb-6">
+    {# Info #}
+    {#
+    <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ pageTitle }}</h1>
+    <p class="text-xl max-w-prose mb-12">{{ pageDescription }}</p>
+    #}
+
+    {# Filters #}
+    <div class="flex flex-row gap-8">
+      {% for status in ["wip", "stable", "abandoned"] %}
+      <label class="mt-4 text-[#479de8] cursor-pointer">
+        <input type="checkbox" x-model="{{ status }}">
+        Show {{ status }}
+      </label>
+      {% endfor %}
+    </div>
+
+    {# Separator #}
+    <hr class="border-dotted w-36 border-neutral-400">
+  </header>
+
+  <div class="flex flex-col gap-4">
+    {# DJ Sets #}
+    <article class="grid grid-cols-6 text-sm m-4">
+
+      <h2 class="col-span-1 text-base font-bold">DJ Sets</h2>
+
+      <div class="col-span-5">
+        <div class="flex items-center justify-end gap-4 grid-span-5">
+          <div class="w-48">
+            <img src="/images/cover500x500.jpg" alt="Cover Image" />
+          </div>
+          <div class="w-full">
+            <!-- Header-->
+            <div class="flex gap-4 items-center">
+              <button id="playButton" class="bg-[#cc2900] p-4 rounded-full">
+                <img id="playButtonIcon" class="text-white" src="/svg/play.svg" alt="Play Button" />
+              </button>
+              <p class="title">Ascendant Vierge - Influenceur (Onelas Edit)</p>
+            </div>
+            <!-- Wave -->
+            <div id="waveform" class="h-full"></div>
+            <!-- Controls -->
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img id="volumeIcon" class="text-white" src="/svg/volume.svg" alt="Volume" />
+                <input id="volumeSlider" class="" type="range" name="volume-slider" min="0" max="100" value="50" />
+              </div>
+              <div class="timecode">
+                <span id="currentTime">00:00:00</span>
+                <span>/</span>
+                <span id="totalDuration">00:00:00</span>
+              </div>
+            </div>
+            <!-- end of player-->
+          </div>
+        </div>
+      </div>
+    </article>
+    {% for category, list in projects %}
+    <article class="grid grid-cols-6 text-sm m-4">
+      {# Category #}
+      <h2 class="col-span-1 text-base font-bold">{{ category }}</h2>
+      {# Projects #}
+      <div class="col-span-5">
+        <div class="grid grid-cols-2 gap-4 sm:gap-8">
+          {% for project in list %}
+          {% include "card.njk" %}
+          {% endfor %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>

@@ -26,10 +26,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('ISODate', dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toISODate()
   })
-  eleventyConfig.addFilter('date', function (value, format) {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(value).toLocaleDateString(undefined, options);
-  });
+
   // Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();

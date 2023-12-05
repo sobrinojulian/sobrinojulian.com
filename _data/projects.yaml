@@ -1,6 +1,6 @@
 hardware:
   - name: Lenovo T430
-    url: https://vs.bt.ht
+    url: /t430
     description: "Custom Emacs configuration setup"
     status: wip
     language: "Lisp"
