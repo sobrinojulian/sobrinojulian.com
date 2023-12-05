@@ -22,7 +22,6 @@ pageDescription: Things I’ve released into the world
 
   <div class="flex flex-col gap-4">
     {% for category, list in projects %}
-    {{ list | log }}
     <article class="grid grid-cols-6 text-sm m-4">
       {# Category #}
       <h2 class="col-span-1 text-base font-bold">{{ category }}</h2>
