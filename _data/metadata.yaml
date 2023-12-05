@@ -1,0 +1,16 @@
+title: "~sj"
+url: "https://sobrinojulian.netlify.app/"
+language: "en"
+name: Sobrino Julian
+avatar: /images/avatar.jpg
+headline: Software Developer
+social:
+  - title: Email
+    url: "mailto:sobrinojulian@pm.me"
+    icon: icons/email.svg
+  - title: Github
+    url: https://github.com/sobrinojulian
+    icon: icons/github.svg
+  - title: Linkedin
+    url: https://www.linkedin.com/in/sobrinojulian/
+    icon: icons/linkedin.svg

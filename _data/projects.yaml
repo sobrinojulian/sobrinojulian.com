@@ -1,163 +1,169 @@
-installers_setups:
-  - name: My Computing
-    url: /windows
-    description: "🐛 Windows 10 IoT Enterprise LTSC 2021"
+hardware:
+  - name: Lenovo T430
+    url: https://vs.bt.ht
+    description: "Custom Emacs configuration setup"
     status: wip
-    language: "N/A"
-    language_color: "#FFFFFF"
-  - name: Windows
-    url: /windows
-    description: "🐛 Windows 10 IoT Enterprise LTSC 2021"
-    status: wip
-    language: "N/A"
-    language_color: "#FFFFFF"
-  - name: Arch Cinnamon
+    language: "Lisp"
+    language_color: "#3FB68B"
+    png: /images/thumbnails/t430.png
+  - name: Toshiba S50B
     url: https://vs.bt.ht
-    description: "🏗️ Custom Arch Linux installation with the Cinnamon desktop environment"
-    status: wip
-    language: "Shell"
-    language_color: "#89E051"
-  - name: Arch WSL
-    url: https://vs.bt.ht
-    description: "🏗️ Custom Arch Linux installation for Windows Subsystem for Linux"
-    status: stable
-    language: "Shell"
-    language_color: "#89E051"
-  - name: Arch XFCE
-    url: https://vs.bt.ht
-    description: "🏗️ Custom Arch Linux installation with the XFCE desktop environment"
-    status: abandoned
-    language: "Shell"
-    language_color: "#89E051"
-  - name: Emacs
-    url: https://vs.bt.ht
-    description: "🏗️ Custom Emacs configuration setup"
+    description: "Custom Emacs configuration setup"
     status: abandoned
     language: "Lisp"
     language_color: "#3FB68B"
+    png: /images/thumbnails/s50b.png
+installers_setups:
+  #- name: My Computing
+  #  url: /windows
+  #  description: "Windows 10 IoT Enterprise LTSC 2021"
+  #  status: wip
+  #  language: "N/A"
+  #  language_color: "#FFFFFF"
+  #  emoji: "🐛"
+  - name: Windows
+    url: /windows
+    description: "Windows 10 IoT Enterprise LTSC 2021"
+    status: wip
+    language: "N/A"
+    language_color: "#FFFFFF"
+    svg: /images/icons/windows.svg
+  - name: Arch Cinnamon
+    url: https://vs.bt.ht
+    description: "Custom Arch Linux installation with the Cinnamon desktop environment"
+    status: wip
+    language: "Shell"
+    language_color: "#89E051"
+    svg: /images/icons/archlinux.svg
+  - name: Arch WSL
+    url: https://vs.bt.ht
+    description: "Custom Arch Linux installation for Windows Subsystem for Linux"
+    status: stable
+    language: "Shell"
+    language_color: "#89E051"
+    emoji: "🏗️"
+  - name: Arch XFCE
+    url: https://vs.bt.ht
+    description: "Custom Arch Linux installation with the XFCE desktop environment"
+    status: abandoned
+    language: "Shell"
+    language_color: "#89E051"
+    emoji: "🏗️"
+  - name: Emacs
+    url: https://vs.bt.ht
+    description: "Custom Emacs configuration setup"
+    status: abandoned
+    language: "Lisp"
+    language_color: "#3FB68B"
+    emoji: "🏗️"
 
 web_tools:
   - name: sobrinojulian.com
     url: https://sobrinojulian.com/
-    description: "🌐 Personal website for sobrinojulian.com"
+    description: "Personal website for sobrinojulian.com"
     status: wip
     language: "HTML"
     language_color: "#E34C26"
+    emoji: "🌐"
   - name: cv
     url: https://cv.sobrinojulian.com/
-    description: "📄 Curriculum Vitae website"
+    description: "Curriculum Vitae website"
     status: stable
     language: "HTML"
     language_color: "#E34C26"
+    emoji: "📄"
   - name: 123
     url: https://123.sobrinojulian.com/
-    description: "🔢 123.sobrinojulian.com website"
+    description: "123.sobrinojulian.com website"
     status: stable
     language: "HTML"
     language_color: "#E34C26"
+    emoji: "🔢"
 
 clis:
   - name: ole-cli
     url: https://github.com/sobrinojulian/ole-cli
-    description: "📅 Command-line interface for ole.com.ar/agenda"
+    description: "Command-line interface for ole.com.ar/agenda"
     status: stable
     language: "JavaScript"
     language_color: "#F1E05A"
+    emoji: "📅"
   - name: aquehorajuegaboca-cli
-    description: "⚽ CLI for aquehorajuegaboca.com.ar"
+    description: "CLI for aquehorajuegaboca.com.ar"
     status: stable
     language: "JavaScript"
     language_color: "#F1E05A"
+    emoji: "⚽"
   - name: timer-cli
     url: https://github.com/sobrinojulian/timer-cli
-    description: "⏲️ Simple timer command-line tool"
+    description: "Simple timer command-line tool"
     status: stable
     language: "JavaScript"
     language_color: "#F1E05A"
+    emoji: "⏲️"
   - name: mortem-cli
-    description: "💀 Command-line death clock"
+    description: "Command-line death clock"
     status: stable
     language: "JavaScript"
     language_color: "#F1E05A"
+    emoji: "💀"
   - name: xcolor-tailwind-cli
     url: https://github.com/sobrinojulian/xcolor-tailwind-cli
-    description: "🌈 X11 Tailwind color picker command-line tool"
+    description: "X11 Tailwind color picker command-line tool"
     status: abandoned
     language: "JavaScript"
     language_color: "#F1E05A"
+    emoji: "🌈"
   - name: 9z-cli
     url: https://github.com/sobrinojulian/9z-cli
-    description: "🎮 Command-line interface for https://9z.games"
+    description: "Command-line interface for https://9z.games"
     status: abandoned
     language: "JavaScript"
     language_color: "#F1E05A"
+    emoji: "🎮"
   - name: weather-cli
     url: https://github.com/sobrinojulian/weather-cli
-    description: "☁️ Command-line weather tool"
+    description: "Command-line weather tool"
     status: abandoned
     language: "JavaScript"
     language_color: "#F1E05A"
+    emoji: "☁️"
 
 clients_websites:
   - name: seguridadhigienetdf.com
     url: https://github.com/somosliana/seguridadhigienetdf.com
-    description: "🌐 Security and hygiene website for TdF"
+    description: "Security and hygiene website for TdF"
     status: wip
     language: "HTML"
     language_color: "#E34C26"
+    emoji: "🌐"
   - name: somosliana.com
     url: https://github.com/somosliana/somosliana.com
-    description: "🌐 Personal website for somosliana.com"
+    description: "Personal website for somosliana.com"
     status: stable
     language: "HTML"
     language_color: "#E34C26"
+    emoji: "🌐"
   - name: indecisovampiro.com.ar
     url: https://github.com/indecisovampiro/indecisovampiro.com.ar
-    description: "🌐 Personal website for indecisovampiro.com.ar"
+    description: "Personal website for indecisovampiro.com.ar"
     status: stable
     language: "HTML"
     language_color: "#E34C26"
+    emoji: "🌐"
   - name: sinoteinspiranoes.com
     url: https://github.com/somosliana/sinoteinspiranoes.com
-    description: "🌐 Personal website for sinoteinspiranoes.com"
+    description: "Personal website for sinoteinspiranoes.com"
     status: stable
     language: "HTML"
     language_color: "#E34C26"
+    emoji: "🌐"
   - name: pillarsed.com
     url: https://github.com/somosliana/pillarsed.com
-    description: "🌐 Personal website for pillarsed.com"
+    description: "Personal website for pillarsed.com"
     status: stable
     language: "HTML"
     language_color: "#E34C26"
-  - name: barbershopcream.com
-    url: https://github.com/somosliana/barbershopcream.com
-    description: "🌐 Personal website for barbershopcream.com"
-    status: stable
-    language: "HTML"
-    language_color: "#E34C26"
-  - name: cintiasusnar.com
-    url: https://github.com/somosliana/cintiasusnar.com
-    description: "🌐 Personal website for cintiasusnar.com"
-    status: stable
-    language: "HTML"
-    language_color: "#E34C26"
-  - name: gjsconsultora.com
-    url: https://github.com/somosliana/gjsconsultora.com
-    description: "🌐 Personal website for gjsconsultora.com"
-    status: abandoned
-    language: "HTML"
-    language_color: "#E34C26"
-
-experiments:
-  - name: zone
-    url: https://github.com/sobrinojulian/zone
-    description: "🤖 Discord bot experiment"
-    status: abandoned
-    language: "JavaScript"
-    language_color: "#F1E05A"
-  - name: twitter-bookmarks-scraper
-    url: https://github.com/sobrinojulian/twitter-bookmarks-scraper
-    description: "🐦 Twitter bookmarks scraper experiment"
-    status: abandoned
-    language: "Python"
-    language_color: "#3572A5"
+    emoji: "🌐"
+  - name: "barbershopcream.com"
+    url: https://github.com/somosliana/barbershopcrea
