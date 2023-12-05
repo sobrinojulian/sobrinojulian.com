@@ -1,0 +1,123 @@
+installers_setups:
+  - name: Arch Cinnamon
+    url: https://vs.bt.ht
+    description: "Void Linux desktop based on the suckless philosophy."
+
+  - name: Arch WSL
+    url: https://vs.bt.ht
+    description: "Void Linux desktop based on the suckless philosophy."
+
+  - name: Arch XFCE
+    url: https://vs.bt.ht
+    description: "Void Linux desktop based on the suckless philosophy."
+    status: archive
+
+  - name: Windows
+    url: https://vs.bt.ht
+    description: "Void Linux desktop based on the suckless philosophy."
+
+  - name: Emacs
+    url: https://vs.bt.ht
+    description: "Void Linux desktop based on the suckless philosophy."
+    status: archive
+clis:
+  - name: mortem-cli
+    description: "💀 Command-line death clock"
+    status: archive
+
+  - name: aquehorajuegaboca-cli
+    description: "⚽ CLI for aquehorajuegaboca.com.ar"
+    status: public
+
+  - name: xcolor-tailwind-cli
+    url: https://github.com/sobrinojulian/xcolor-tailwind-cli
+    description: "x11 tailwind color picker"
+
+  - name: 9z-cli
+    url: https://github.com/sobrinojulian/9z-cli
+    description: "cli for https://9z.games"
+
+  - name: ole-cli
+    url: https://github.com/sobrinojulian/ole-cli
+    description: "cli for ole.com.ar/agenda"
+
+  - name: timer-cli
+    url: https://github.com/sobrinojulian/timer-cli
+    description: "simple timer"
+
+  - name: weather-cli
+    url: https://github.com/sobrinojulian/weather-cli
+
+web_tools:
+  - name: sobrinojulian.com
+    url: https://sobrinojulian.com/
+
+  - name: cv
+    url: https://cv.sobrinojulian.com/
+
+  - name: 123
+    url: https://123.sobrinojulian.com/
+
+  - name: quartz
+    url: https://quartz.sobrinojulian.com/
+
+clients_websites:
+  - name: somosliana.com
+    url: https://github.com/somosliana
+  - name: indecisovampiro.com.ar
+    url: https://github.com/indecisovampiro/indecisovampiro.com.ar
+
+  - name: sinoteinspiranoes.com
+    url: https://github.com/somosliana/sinoteinspiranoes.com
+
+  - name: seguridadhigienetdf.com
+    url: https://github.com/somosliana/seguridadhigienetdf.com
+
+  - name: pillarsed.com
+    url: https://github.com/somosliana/pillarsed.com
+
+  - name: barbershopcream.com
+    url: https://github.com/somosliana/barbershopcream.com
+    status: archive
+
+  - name: cintiasusnar.com
+    url: https://github.com/somosliana/cintiasusnar.com
+    status: archive
+
+  - name: gjsconsultora.com
+    url: https://github.com/somosliana/gjsconsultora.com
+    status: archive
+
+
+experiments:
+  - name: zone
+    url: https://github.com/sobrinojulian/zone
+    description: "discord bot"
+    status: archive
+
+  - name: twitter-bookmarks-scraper
+    url: https://github.com/sobrinojulian/twitter-bookmarks-scraper
+    status: archive
+
+
+
+#boilerplates:
+#  - name: NEAT Website Boilerplate
+#    url: [your_url_here]
+#
+#  - name: Node CLI Boilerplate
+#    url: [your_url_here]
+#
+#  - name: Jekyll Website Boilerplate
+#    url: [your_url_here]
+#
+#homeworks:
+#  - name: perreando.com.ar
+#    url: https://github.com/sobrinojulian/perreando.com.ar
+#    description: "MEVN app"
+#    status: archive
+#
+#  - name: TurnosSalud
+#    url: https://github.com/sobrinojulian/TurnosSalud
+#    description: "ASP.NET MVC app"
+#    status: archive
