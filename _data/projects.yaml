@@ -1,18 +1,18 @@
-hardware:
-  - name: Lenovo T430
-    url: /t430
-    description: "Custom Emacs configuration setup"
-    status: wip
-    language: "Lisp"
-    language_color: "#3FB68B"
-    png: /images/thumbnails/t430.png
-  - name: Toshiba S50B
-    url: https://vs.bt.ht
-    description: "Custom Emacs configuration setup"
-    status: abandoned
-    language: "Lisp"
-    language_color: "#3FB68B"
-    png: /images/thumbnails/s50b.png
+#hardware:
+#  - name: Lenovo T430
+#    url: /t430
+#    description: "Custom Emacs configuration setup"
+#    status: wip
+#    language: "Lisp"
+#    language_color: "#3FB68B"
+#    png: /images/thumbnails/t430.png
+#  - name: Toshiba S50B
+#    url: https://vs.bt.ht
+#    description: "Custom Emacs configuration setup"
+#    status: abandoned
+#    language: "Lisp"
+#    language_color: "#3FB68B"
+#    png: /images/thumbnails/s50b.png
 installers_setups:
   #- name: My Computing
   #  url: /windows
@@ -28,13 +28,6 @@ installers_setups:
     language: "N/A"
     language_color: "#FFFFFF"
     svg: /images/icons/windows.svg
-  - name: Arch Cinnamon
-    url: https://vs.bt.ht
-    description: "Custom Arch Linux installation with the Cinnamon desktop environment"
-    status: wip
-    language: "Shell"
-    language_color: "#89E051"
-    svg: /images/icons/archlinux.svg
   - name: Arch WSL
     url: https://vs.bt.ht
     description: "Custom Arch Linux installation for Windows Subsystem for Linux"
@@ -42,6 +35,13 @@ installers_setups:
     language: "Shell"
     language_color: "#89E051"
     emoji: "🏗️"
+  - name: Arch Cinnamon
+    url: https://vs.bt.ht
+    description: "Custom Arch Linux installation with the Cinnamon desktop environment"
+    status: wip
+    language: "Shell"
+    language_color: "#89E051"
+    svg: /images/icons/archlinux.svg
   - name: Arch XFCE
     url: https://vs.bt.ht
     description: "Custom Arch Linux installation with the XFCE desktop environment"

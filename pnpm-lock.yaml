@@ -68,6 +68,9 @@ devDependencies:
   tailwindcss:
     specifier: ^3.3.6
     version: 3.3.6
+  wavesurfer.js:
+    specifier: ^7.5.1
+    version: 7.5.1
 
 packages:
 
@@ -2473,6 +2476,10 @@ packages:
   /void-elements@3.1.0:
     resolution: {integrity: sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /wavesurfer.js@7.5.1:
+    resolution: {integrity: sha512-lFDzf9+4TLCiDoGTrwrhO7zzOG3FvDSA2uo2aE19TpTGL1tSaB0tDuRM9VyeQXJyKujHNgibWhn+pCbj6oa8UA==}
     dev: true
 
   /which@2.0.2:
