@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "arch-linux.md",
+                "file": "uses.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "arch-linux.md",
+                "file": "uses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "arch-linux.md",
+                "file": "uses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "arch-linux.md"
+                "file": "uses.md"
               }
             }
           }
@@ -146,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3613de446b547a72",
+  "active": "1165358b2db2da5b",
   "lastOpenFiles": [
+    "arch-linux.md",
+    "_/files/objectaid-1.2.4.zip",
+    "_/files",
     "_/icons/custom/youtube.svg",
     "_/icons/custom/Windows.svg",
     "_/icons/custom/whatsapp.svg",
@@ -158,14 +161,12 @@
     "_/icons/custom/topg.svg",
     "_/icons/custom/tiktok.svg",
     "_/icons/custom/telegram.svg",
-    "_/icons/custom/taringa.svg",
     "_/icons/custom",
     "_/icons",
     "_/New folder",
     "_/custom",
     "eclipse.md",
     "c875.md",
-    "arch-linux.md",
     "my-computing.md",
     "t430.md",
     "_/images",

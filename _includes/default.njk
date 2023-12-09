@@ -14,14 +14,12 @@
 </head>
 
 <body
-  class="flex flex-col min-h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  class="flex flex-col min-h-screen m-auto max-w-screen-lg">
   {% include "_nav.njk" %}
   {% include "_header.njk" %}
-  <main class="relative flex flex-col grow">
+  <main class="flex flex-col w-full">
     {{ content | safe }}
   </main>
-  <script src="https://unpkg.com/wavesurfer.js@5.0.1/dist/wavesurfer.js"></script>
-  <script src="/script.js"></script>
 </body>
 
 </html>

@@ -6,6 +6,8 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CuEclipse",
+      "CuWindows",
       "CuArchLinux"
     ],
     "recentlyUsedIconsSize": 5,
@@ -22,5 +24,7 @@
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true
   },
-  "arch-linux.md": "CuArchLinux"
+  "arch-linux.md": "CuArchLinux",
+  "windows.md": "CuWindows",
+  "eclipse.md": "CuEclipse"
 }
