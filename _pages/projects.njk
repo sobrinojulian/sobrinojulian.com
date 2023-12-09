@@ -4,27 +4,19 @@ description: Things I’ve released into the world
 ---
 {# Projects #}
 <div x-data="{ wip: true, stable: true, abandoned: false }">
-  <header class="flex flex-col gap-4 justify-around mb-6">
-    <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ title }}</h1>
-    <p class="text-xl max-w-prose mb-12">{{ description }}</p>
-
-    {# Filters #}
-    <div class="flex flex-row gap-8">
-      {% for status in ["wip", "stable", "abandoned"] %}
-      <label class="mt-4 text-[#479de8] cursor-pointer">
-        <input type="checkbox" x-model="{{ status }}">
-        Show {{ status }}
-      </label>
-      {% endfor %}
-    </div>
-
-    {# Separator #}
-    <hr class="border-dotted w-36 border-neutral-400">
-  </header>
+  {# Filters #}
+  <div class="flex flex-row gap-8 mb-6">
+    {% for status in ["wip", "stable", "abandoned"] %}
+    <label class="mt-4 text-[#479de8] cursor-pointer">
+      <input type="checkbox" x-model="{{ status }}">
+      Show {{ status }}
+    </label>
+    {% endfor %}
+  </div>
 
   <div class="flex flex-col gap-4">
     {% for category, list in projects %}
-    <article class="grid grid-cols-6 text-sm m-4">
+    <article class="grid grid-cols-6 text-sm">
       {# Category #}
       <h2 class="col-span-1 text-base font-bold">{{ category }}</h2>
       {# Projects #}
