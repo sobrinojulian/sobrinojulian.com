@@ -7,7 +7,7 @@
       {%- if project.status === "stable" %}
         <p class="text-[#ffca55] border-[#ffca55] border-[1px] rounded-md px-2">{{ project.status }}</p>
       {%- elseif project.status === "wip" %}
-        <p class="text-green-500 border-green-500 border-[1px] rounded-md px-2">{{ project.status }}</p>
+        <p class="text-green-500 text- border-green-500 border-[1px] rounded-md px-2">{{ project.status }}</p>
       {%- elseif project.status === "abandoned" %}
         <p class="text-[#7b7b7b] border-[#7b7b7b] border-[1px] rounded-md px-2">{{ project.status }}</p>
       {%- endif %}

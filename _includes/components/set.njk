@@ -1,0 +1,19 @@
+<div class="flex gap-4 max-w-3xl bg-gray-600 p-4">
+  <img class="w-40" src="{{ x.image }}" alt="Cover Image" />
+  <div class="flex flex-col justify-around w-full">
+    {# TOP #}
+    <div class="flex justify-between items-start">
+      <h2 class="bg-black text-white py-2 px-4 text-lg">{{ x.title }}</h2>
+      <div class="flex flex-col bg-black text-white text-base text-end py-2 px-4">
+        <p class="">{{ x.date | ISODate }}</p>
+        <p class="">{{ x.bpm }}</p>
+        {# <p>{{ x.tags }}</p> #}
+      </div>
+    </div>
+    {# BOTTOM #}
+    <audio class="w-full" controls>
+      <source src="{{ x.url }}" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
