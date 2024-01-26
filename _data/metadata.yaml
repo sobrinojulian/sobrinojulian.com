@@ -17,10 +17,10 @@ social:
 nav:
   - title: Projects
     href: /projects
-  - title: Writings
-    href: /writings
-  - title: DJ Sets
-    href: /sets
+  - title: Wiki
+    href: /wiki
+  #- title: DJ Sets
+  #  href: /sets
 
 
 
