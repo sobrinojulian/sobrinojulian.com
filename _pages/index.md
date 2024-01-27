@@ -2,6 +2,7 @@
 layout: index.njk
 eleventyNavigation:
   key: About
+  order: 1
 ---
 [This website](/colophon) is where I share my technology experiences.
 
