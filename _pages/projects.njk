@@ -5,10 +5,10 @@ eleventyNavigation:
   key: Projects
 ---
 {# Projects #}
-<div x-data="{ wip: true, stable: true, abandoned: false }">
+<div x-data="{ active: true, completed: true, deprecated: false }">
   {# Filters #}
   <div class="flex flex-row gap-8 mb-6">
-    {% for status in ["wip", "stable", "abandoned"] %}
+    {% for status in ["active", "completed", "deprecated"] %}
     <label class="text-[#479de8] cursor-pointer">
       <input type="checkbox" x-model="{{ status }}">
       Show {{ status }}

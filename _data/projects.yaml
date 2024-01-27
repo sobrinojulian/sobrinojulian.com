@@ -2,42 +2,42 @@ websites:
   - name: sobrinojulian.com
     url: https://sobrinojulian.com/
     description: "Personal website for sobrinojulian.com"
-    status: wip
+    status: active
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🌐"
   - name: seguridadhigienetdf.com
     url: https://github.com/somosliana/seguridadhigienetdf.com
     description: "Security and hygiene website for TdF"
-    status: wip
+    status: active
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🌐"
   - name: somosliana.com
     url: https://github.com/somosliana/somosliana.com
     description: "Personal website for somosliana.com"
-    status: stable
+    status: completed
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🌐"
   - name: indecisovampiro.com.ar
     url: https://github.com/indecisovampiro/indecisovampiro.com.ar
     description: "Personal website for indecisovampiro.com.ar"
-    status: stable
+    status: completed
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🌐"
   - name: sinoteinspiranoes.com
     url: https://github.com/somosliana/sinoteinspiranoes.com
     description: "Personal website for sinoteinspiranoes.com"
-    status: stable
+    status: completed
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🌐"
   - name: pillarsed.com
     url: https://github.com/somosliana/pillarsed.com
     description: "Personal website for pillarsed.com"
-    status: stable
+    status: completed
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🌐"
@@ -47,14 +47,14 @@ web_tools:
   - name: cv
     url: https://cv.sobrinojulian.com/
     description: "Curriculum Vitae website"
-    status: stable
+    status: completed
     language: "HTML"
     language_color: "#E34C26"
     emoji: "📄"
   - name: 123
     url: https://123.sobrinojulian.com/
     description: "123.sobrinojulian.com website"
-    status: stable
+    status: completed
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🔢"
@@ -62,47 +62,47 @@ clis:
   - name: ole-cli
     url: https://github.com/sobrinojulian/ole-cli
     description: "Command-line interface for ole.com.ar/agenda"
-    status: stable
+    status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
     emoji: "📅"
   - name: aquehorajuegaboca-cli
     description: "CLI for aquehorajuegaboca.com.ar"
-    status: stable
+    status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
     emoji: "⚽"
   - name: timer-cli
     url: https://github.com/sobrinojulian/timer-cli
     description: "Simple timer command-line tool"
-    status: stable
+    status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
     emoji: "⏲️"
   - name: mortem-cli
     description: "Command-line death clock"
-    status: stable
+    status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
     emoji: "💀"
   - name: xcolor-tailwind-cli
     url: https://github.com/sobrinojulian/xcolor-tailwind-cli
     description: "X11 Tailwind color picker command-line tool"
-    status: abandoned
+    status: deprecated
     language: "JavaScript"
     language_color: "#F1E05A"
     emoji: "🌈"
   - name: 9z-cli
     url: https://github.com/sobrinojulian/9z-cli
     description: "Command-line interface for https://9z.games"
-    status: abandoned
+    status: deprecated
     language: "JavaScript"
     language_color: "#F1E05A"
     emoji: "🎮"
   - name: weather-cli
     url: https://github.com/sobrinojulian/weather-cli
     description: "Command-line weather tool"
-    status: abandoned
+    status: deprecated
     language: "JavaScript"
     language_color: "#F1E05A"
     emoji: "☁️"
@@ -110,35 +110,35 @@ dotfiles:
   - name: Windows
     url: /windows
     description: "Windows 10 IoT Enterprise LTSC 2021"
-    status: wip
+    status: active
     language: "Powershell"
     language_color: "#FF0000"
     svg: /images/icons/windows.svg
   - name: Arch WSL
     url: https://vs.bt.ht
     description: "Custom Arch Linux installation for Windows Subsystem for Linux"
-    status: stable
+    status: completed
     language: "Shell"
     language_color: "#89E051"
     emoji: "🏗️"
   - name: Arch Cinnamon
     url: https://vs.bt.ht
     description: "Custom Arch Linux installation with the Cinnamon desktop environment"
-    status: wip
+    status: active
     language: "Shell"
     language_color: "#89E051"
     svg: /images/icons/archlinux.svg
   - name: Arch XFCE
     url: https://vs.bt.ht
     description: "Custom Arch Linux installation with the XFCE desktop environment"
-    status: abandoned
+    status: deprecated
     language: "Shell"
     language_color: "#89E051"
     emoji: "🏗️"
   - name: Emacs
     url: https://vs.bt.ht
     description: "Custom Emacs configuration setup"
-    status: abandoned
+    status: deprecated
     language: "Lisp"
     language_color: "#3FB68B"
     emoji: "🏗️"
@@ -147,14 +147,14 @@ dotfiles:
 #  - name: Lenovo T430
 #    url: /t430
 #    description: "Custom Emacs configuration setup"
-#    status: wip
+#    status: active
 #    language: "Lisp"
 #    language_color: "#3FB68B"
 #    png: /images/thumbnails/t430.png
 #  - name: Toshiba S50B
 #    url: https://vs.bt.ht
 #    description: "Custom Emacs configuration setup"
-#    status: abandoned
+#    status: deprecated
 #    language: "Lisp"
 #    language_color: "#3FB68B"
 #    png: /images/thumbnails/s50b.png
