@@ -1,5 +1,7 @@
 ---
 layout: index.njk
+eleventyNavigation:
+  key: About
 ---
 This website is where I share my technology experiences.
 

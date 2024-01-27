@@ -14,46 +14,18 @@
 </head>
 
 <body
-  class="flex flex-col min-h-screen m-auto max-w-screen-lg">
+  class="flex flex-col min-h-screen m-auto max-w-screen-md">
   <nav class="flex items-start justify-between sm:items-center py-6">
-    <div class="flex flex-row items-center">
-      <a
-        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-        rel="me"
-        href="/">
-        {{ metadata.title }}</a
-      >
-    </div>
-    <ul class="flex flex-col list-none text-end sm:flex-row">
-      {% for x in metadata.nav %}
-      <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
-        <a href="{{ x.href }}" title="{{ x.title }}">
-          <span
-            class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2">
-            {{ x.title }}
-          </span>
-        </a>
-      </li>
-      {% endfor %}
+    <ul class="flex flex-col list-none text-end sm:flex-row gap-4">
+      {%- for entry in collections.all | eleventyNavigation %}
+        <li class="{% if entry.url == page.url %}underline{% endif %}">
+          <a href="{{ entry.url }}">{{ entry.title }}</a>
+        </li>
+      {%- endfor %}
     </ul>
   </nav>
-  {#<header
-  class="py-6 font-semibold text-neutral-400 dark:text-neutral-500 print:hidden sm:py-10">#}
-  {% if title or description %}
-  <header class="flex flex-col gap-4 justify-around mb-6 py-6 sm:py-10">
-    <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      {{ title }}
-    </h1>
-    {#
-    <p class="text-xl max-w-prose mb-12">{{ description }}</p>
-    <hr class="border-dotted w-36 border-neutral-400" />
-    #}
-  </header>
-  {% endif %}
-  {#</header>#}
-  <main class="flex flex-col w-full">
+  <main class="flex flex-col">
     {{ content | safe }}
   </main>
 </body>
-
 </html>

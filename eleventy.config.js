@@ -3,6 +3,7 @@ const beautify = require('js-beautify')
 const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy')
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const timeToRead = require('eleventy-plugin-time-to-read')
 const MarkdownIt = require('markdown-it');
 const MarkdownItGitHubAlerts = require('markdown-it-github-alerts');
@@ -21,6 +22,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin)
   eleventyConfig.addPlugin(timeToRead)
+  eleventyConfig.addPlugin(eleventyNavigationPlugin)
 
   // Filters
   eleventyConfig.addFilter('ISODate', dateObj => {

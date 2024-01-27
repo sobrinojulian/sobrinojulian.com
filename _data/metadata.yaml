@@ -14,13 +14,6 @@ social:
   - title: Linkedin
     url: https://www.linkedin.com/in/sobrinojulian/
     icon: icons/linkedin.svg
-nav:
-  - title: Projects
-    href: /projects
-  - title: Wiki
-    href: /wiki
-  #- title: DJ Sets
-  #  href: /sets
 
 
 
