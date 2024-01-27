@@ -1,4 +1,11 @@
 websites:
+  - name: sobrinojulian.com
+    url: https://sobrinojulian.com/
+    description: "Personal website for sobrinojulian.com"
+    status: wip
+    language: "HTML"
+    language_color: "#E34C26"
+    emoji: "🌐"
   - name: seguridadhigienetdf.com
     url: https://github.com/somosliana/seguridadhigienetdf.com
     description: "Security and hygiene website for TdF"
@@ -37,13 +44,6 @@ websites:
   - name: "barbershopcream.com"
     url: https://github.com/somosliana/barbershopcrea
 web_tools:
-  - name: sobrinojulian.com
-    url: https://sobrinojulian.com/
-    description: "Personal website for sobrinojulian.com"
-    status: wip
-    language: "HTML"
-    language_color: "#E34C26"
-    emoji: "🌐"
   - name: cv
     url: https://cv.sobrinojulian.com/
     description: "Curriculum Vitae website"
@@ -58,7 +58,6 @@ web_tools:
     language: "HTML"
     language_color: "#E34C26"
     emoji: "🔢"
-
 clis:
   - name: ole-cli
     url: https://github.com/sobrinojulian/ole-cli
@@ -108,13 +107,6 @@ clis:
     language_color: "#F1E05A"
     emoji: "☁️"
 dotfiles:
-  #- name: My Computing
-  #  url: /windows
-  #  description: "Windows 10 IoT Enterprise LTSC 2021"
-  #  status: wip
-  #  language: "N/A"
-  #  language_color: "#FFFFFF"
-  #  emoji: "🐛"
   - name: Windows
     url: /windows
     description: "Windows 10 IoT Enterprise LTSC 2021"
