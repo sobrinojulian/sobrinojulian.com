@@ -6,13 +6,13 @@ eleventyNavigation:
   order: 2
 ---
 {# Projects #}
-<div x-data="{ active: true, completed: true, deprecated: false }">
+<div x-data="{ active: true, completed: true, deprecated: true }">
   {# Filters #}
   <div class="flex flex-row gap-8 mb-6">
     {% for status in ["active", "completed", "deprecated"] %}
     <label class="text-[#479de8] cursor-pointer">
       <input type="checkbox" x-model="{{ status }}">
-      Show {{ status }}
+      {{ status }}
     </label>
     {% endfor %}
   </div>
@@ -21,10 +21,10 @@ eleventyNavigation:
     {% for category, list in projects %}
     <article class="grid grid-cols-6 text-sm">
       {# Category #}
-      <h2 class="col-span-1 text-base font-bold">{{ category }}</h2>
+      <h2 class="col-span-6 sm:col-span-1 text-base font-bold">{{ category }}</h2>
       {# Projects #}
       <div class="col-span-5">
-        <div class="grid grid-cols-2 gap-4 sm:gap-8">
+        <div class="col-span-5 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8">
           {% for project in list %}
             {% include "components/project.njk" %}
           {% endfor %}

@@ -1,20 +1,26 @@
-<div x-show="(active && '{{ project.status }}' === 'active') || (completed && '{{ project.status }}' === 'completed') || (deprecated && '{{ project.status }}' === 'deprecated')" class="p-4 border-[#d0d7de] border-[1px] rounded-md">
+<div class="p-4 border-[#d0d7de] border-[1px] rounded-md" x-show="(active && '{{ project.status }}' === 'active') || (completed && '{{ project.status }}' === 'completed') || (deprecated && '{{ project.status }}' === 'deprecated')">
   {# Wrapper #}
   <div class="flex flex-col gap-2">
     {# Top Row #}
-    <div class="flex justify-between">
+    <div class="flex flex-col justify-between sm:flex-row">
+      {# Name #}
       <p class="text-[#0969da]"><a href="{{ project.url }}" translate="no">{{ project.name }}</a></p>
-      {%- if project.status === "completed" %}
-        <p class="text-[#9a6700] border-[#9a6700] border-[1px] rounded-md px-2">{{ project.status }}</p>
-      {%- elseif project.status === "active" %}
-        <p class="text-green-800 border-green-700 border-[1px] rounded-md px-2">{{ project.status }}</p>
-      {%- elseif project.status === "deprecated" %}
-        <p class="text-[#656d76] border-[#d0d7de] border-[1px] rounded-md px-2">{{ project.status }}</p>
-      {%- endif %}
+      {# Status #}
+      <div class="flex">
+        {%- if project.status === "completed" %}
+          <p class="text-[#9a6700] border-[#9a6700] border-[1px] rounded-md px-2">{{ project.status }}</p>
+        {%- elseif project.status === "active" %}
+          <p class="text-green-800 border-green-700 border-[1px] rounded-md px-2">{{ project.status }}</p>
+        {%- elseif project.status === "deprecated" %}
+          <p class="text-[#656d76] border-[#d0d7de] border-[1px] rounded-md px-2">{{ project.status }}</p>
+        {%- endif %}
+      </div>
     </div>
     {# Bottom Row #}
     <div class="flex flex-col gap-4">
+      {# Description #}
       <p class="text-[#656d76]">{{ project.description }}</p>
+      {# Language #}
       <div class="flex items-center gap-1">
         <span class="h-3 w-3 bg-[{{ project.language_color }}] inline-block rounded-full"></span> {{ project.language }}
       </div>

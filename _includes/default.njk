@@ -14,9 +14,9 @@
 </head>
 
 <body
-  class="flex flex-col min-h-screen m-auto max-w-screen-md">
-  <nav class="flex items-start justify-between sm:items-center py-6">
-    <ul class="flex flex-col list-none text-end sm:flex-row gap-4">
+  class="flex flex-col min-h-screen m-auto max-w-screen-md px-2">
+  <nav class="flex items-start justify-between py-6">
+    <ul class="flex list-none text-end gap-4">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="{% if entry.url == page.url %}underline{% endif %}">
           <a href="{{ entry.url }}">{{ entry.title }}</a>

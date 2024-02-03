@@ -2,18 +2,16 @@
 layout: default.njk
 ---
 
-<header class="flex flex-row items-center gap-8 justify-center mx-auto mt-8">
+<header class="flex flex-col sm:flex-row items-center gap-8 justify-center mx-auto mt-8">
   {# LEFT #}
-  <img
-    class="h-44 w-44 rounded-3xl"
-    alt="{{ metadata.name }}"
-    src="{{ metadata.avatar }}" />
+    <img
+      class="h-44 w-44 rounded-3xl"
+      alt="{{ metadata.name }}"
+      src="{{ metadata.avatar }}" />
   {# RIGHT #}
   <div class="flex flex-col gap-2">
     <h1 class="text-4xl font-extrabold">{{ metadata.name }}</h1>
-    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-      {{ metadata.headline }}
-    </h2>
+    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">{{ metadata.headline }}</h2>
     {# SOCIAL #}
     <div class="text-2xl">
       <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
