@@ -1,148 +1,210 @@
-websites:
-  - name: sobrinojulian.com
-    url: https://sobrinojulian.com/
-    description: "Personal website for sobrinojulian.com"
-    status: active
-    language: "HTML"
-    language_color: "#E34C26"
-    emoji: "🌐"
+"clients websites":
   - name: seguridadhigienetdf.com
     url: https://github.com/somosliana/seguridadhigienetdf.com
-    description: "Security and hygiene website for TdF"
+    description: "seguridadhigienetdf.com"
     status: active
     language: "HTML"
     language_color: "#E34C26"
-    emoji: "🌐"
+
   - name: somosliana.com
     url: https://github.com/somosliana/somosliana.com
-    description: "Personal website for somosliana.com"
+    description: "somosliana.com"
     status: completed
     language: "HTML"
     language_color: "#E34C26"
-    emoji: "🌐"
+
   - name: indecisovampiro.com.ar
     url: https://github.com/indecisovampiro/indecisovampiro.com.ar
-    description: "Personal website for indecisovampiro.com.ar"
+    description: "indecisovampiro.com.ar"
     status: completed
     language: "HTML"
     language_color: "#E34C26"
-    emoji: "🌐"
+
   - name: sinoteinspiranoes.com
     url: https://github.com/somosliana/sinoteinspiranoes.com
-    description: "Personal website for sinoteinspiranoes.com"
+    description: "sinoteinspiranoes.com"
     status: completed
     language: "HTML"
     language_color: "#E34C26"
-    emoji: "🌐"
+
   - name: pillarsed.com
     url: https://github.com/somosliana/pillarsed.com
-    description: "Personal website for pillarsed.com"
+    description: "pillarsed.com"
     status: completed
     language: "HTML"
     language_color: "#E34C26"
-    emoji: "🌐"
+
   - name: "barbershopcream.com"
-    url: https://github.com/somosliana/barbershopcrea
-web_tools:
+    url: https://github.com/somosliana/barbershopcream.com
+    description: "barbershopcream.com"
+    status: completed
+    language: "HTML"
+    language_color: "#E34C26"
+
+"personal websites":
+  - name: sobrinojulian.com
+    url: https://github.com/sobrinojulian/sobrinojulian.com/
+    description: "🌐 www"
+    status: active
+    language: "HTML"
+    language_color: "#E34C26"
+
   - name: cv
-    url: https://cv.sobrinojulian.com/
-    description: "Curriculum Vitae website"
-    status: completed
+    url: https://github.com/sobrinojulian/cv/
+    description: "💼 curriculum vitae"
+    status: active
     language: "HTML"
     language_color: "#E34C26"
-    emoji: "📄"
-  - name: 123
-    url: https://123.sobrinojulian.com/
-    description: "123.sobrinojulian.com website"
+
+  #- name: 123
+  #  url: https://123.sobrinojulian.com/
+  #  description: "123.sobrinojulian.com website"
+  #  status: completed
+  #  language: "HTML"
+  #  language_color: "#E34C26"
+
+tps:
+  - name: perreando.com.ar
+    url: https://github.com/sobrinojulian/perreando.com.ar
+    description: "🎓 MEVN Stack App (PNT2/TP2)"
     status: completed
-    language: "HTML"
-    language_color: "#E34C26"
-    emoji: "🔢"
+    language: "JavaScript"
+    language_color: "#F1E05A"
+
+  - name: TurnosSalud
+    url: https://github.com/sobrinojulian/TurnosSalud
+    description: "🎓 ASP.NET MVC App (PNT1)"
+    status: completed
+    language: "C#"
+    language_color: "#126B00"
+
 clis:
   - name: ole-cli
     url: https://github.com/sobrinojulian/ole-cli
-    description: "Command-line interface for ole.com.ar/agenda"
+    description: ⚽ CLI for Agenda deportiva Olé
     status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
-    emoji: "📅"
+
   - name: aquehorajuegaboca-cli
-    description: "CLI for aquehorajuegaboca.com.ar"
+    url: https://github.com/sobrinojulian/aquehorajuegaboca-cli
+    description: ⚽ CLI for aquehorajuegaboca.com.ar
     status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
-    emoji: "⚽"
+
   - name: timer-cli
     url: https://github.com/sobrinojulian/timer-cli
-    description: "Simple timer command-line tool"
+    description: ⌚️ Command-line timer
     status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
-    emoji: "⏲️"
+
   - name: mortem-cli
-    description: "Command-line death clock"
+    url: https://github.com/sobrinojulian/mortem-cli
+    description: 💀 Command-line death clock
     status: completed
     language: "JavaScript"
     language_color: "#F1E05A"
-    emoji: "💀"
+
   - name: xcolor-tailwind-cli
     url: https://github.com/sobrinojulian/xcolor-tailwind-cli
-    description: "X11 Tailwind color picker command-line tool"
+    description: 🌈 Tailwind color picker for X11
     status: deprecated
     language: "JavaScript"
     language_color: "#F1E05A"
-    emoji: "🌈"
+
   - name: 9z-cli
     url: https://github.com/sobrinojulian/9z-cli
-    description: "Command-line interface for https://9z.games"
+    description: 🖱️ CLI for 9z.games
     status: deprecated
     language: "JavaScript"
     language_color: "#F1E05A"
-    emoji: "🎮"
+
   - name: weather-cli
     url: https://github.com/sobrinojulian/weather-cli
-    description: "Command-line weather tool"
+    description: 🌞 CLI for the local weather forecast
     status: deprecated
-    language: "JavaScript"
-    language_color: "#F1E05A"
-    emoji: "☁️"
+    language: "Python"
+    language_color: "#3572A5"
+
 dotfiles:
-  - name: Windows
-    url: /windows
-    description: "Windows 10 IoT Enterprise LTSC 2021"
-    status: active
-    language: "Powershell"
-    language_color: "#FF0000"
-    svg: /images/icons/windows.svg
-  - name: Arch WSL
-    url: https://vs.bt.ht
-    description: "Custom Arch Linux installation for Windows Subsystem for Linux"
-    status: completed
-    language: "Shell"
-    language_color: "#89E051"
-    emoji: "🏗️"
-  - name: Arch Cinnamon
-    url: https://vs.bt.ht
-    description: "Custom Arch Linux installation with the Cinnamon desktop environment"
+  - name: archwsl
+    url: https://github.com/sjarbs/archwsl
+    description: 🐧 Arch Linux for Windows Subsystem for Linux
     status: active
     language: "Shell"
     language_color: "#89E051"
-    svg: /images/icons/archlinux.svg
   - name: Arch XFCE
-    url: https://vs.bt.ht
-    description: "Custom Arch Linux installation with the XFCE desktop environment"
-    status: deprecated
+    url: https://github.com/sjarbs/archxfce
+    description: 🐧 Arch Linux with the XFCE desktop environment
+    status: active
     language: "Shell"
     language_color: "#89E051"
-    emoji: "🏗️"
+  - name: bucket
+    url: https://github.com/sjarbs/bucket
+    description: "📦 Bucket for Scoop Installer"
+    status: active
+    language: "Shell"
+    language_color: "#89E051"
   - name: Emacs
-    url: https://vs.bt.ht
-    description: "Custom Emacs configuration setup"
+    url: https://github.com/sjarbs/emacs
+    description: 🐃 .emacs.d
     status: deprecated
     language: "Lisp"
     language_color: "#3FB68B"
-    emoji: "🏗️"
-
+  #- name: Windows
+  #  url: /windows
+  #  description: "Windows 10 IoT Enterprise LTSC 2021"
+  #  status: active
+  #  language: "Powershell"
+  #  language_color: "#FF0000"
+  #  svg: /images/icons/windows.svg
+  #- name: Arch Cinnamon
+  #  url: https://vs.bt.ht
+  #  description: "Custom Arch Linux installation with the Cinnamon desktop environment"
+  #  status: active
+  #  language: "Shell"
+  #  language_color: "#89E051"
+  #  svg: /images/icons/archlinux.svg
+boilerplates:
+  - name: neat-website-boilerplate
+    url: https://github.com/sjarbs/neat-website-boilerplate
+    description: "Netlify CMS, Eleventy, Alpine.js, Tailwind Boilerplate"
+    status: deprecated
+    language: "HTML"
+    language_color: "#E34C26"
+  - name: node-cli-boilerplate
+    url: https://github.com/sjarbs/node-cli-boilerplate
+    description: 🖨️ Boilerplate to kickstart creating a Node.js command-line tool
+    status: deprecated
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: python-package-boilerplate
+    url: https://github.com/sjarbs/python-package-boilerplate
+    description: 🐍 Boilerplate to kickstart creating a Python package.
+    status: deprecated
+    language: "Python"
+    language_color: "#3572A5"
+  - name: jekyll-website-boilerplate
+    url: https://github.com/sjarbs/jekyll-website-boilerplate
+    description: 💎 Boilerplate to kickstart creating a Jekyll website.
+    status: deprecated
+    language: "Ruby"
+    language_color: "#701516"
+other:
+  - name: twitter-bookmarks-scraper
+    url: https://github.com/sobrinojulian/twitter-bookmarks-scraper
+    description: 🐦 Twitter bookmarks scraper
+    status: deprecated
+    language: "JavaScript"
+    language_color: "#F1E05A"
+  - name: zone
+    url: https://github.com/sobrinojulian/zone
+    description: 🤖 Discord beats bot
+    status: deprecated
+    language: "JavaScript"
+    language_color: "#F1E05A"
 #hardware:
 #  - name: Lenovo T430
 #    url: /t430

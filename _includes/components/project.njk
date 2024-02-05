@@ -8,11 +8,11 @@
       {# Status #}
       <div class="flex">
         {%- if project.status === "completed" %}
-          <p class="text-[#9a6700] border-[#9a6700] border-[1px] rounded-md px-2">{{ project.status }}</p>
+          <p class="text-green-800 border-green-700 border-[1px] rounded-md px-1">{{ project.status }}</p>
         {%- elseif project.status === "active" %}
-          <p class="text-green-800 border-green-700 border-[1px] rounded-md px-2">{{ project.status }}</p>
+          <p class="text-[#9a6700] border-[#9a6700] border-[1px] rounded-md px-1">{{ project.status }}</p>
         {%- elseif project.status === "deprecated" %}
-          <p class="text-[#656d76] border-[#d0d7de] border-[1px] rounded-md px-2">{{ project.status }}</p>
+          <p class="text-[#656d76] border-[#d0d7de] border-[1px] rounded-md px-1">{{ project.status }}</p>
         {%- endif %}
       </div>
     </div>
