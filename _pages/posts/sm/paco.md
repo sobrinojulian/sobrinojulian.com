@@ -1,16 +1,13 @@
 ---
-title: "Toshiba S50B"
-date: 2023-06-04
-thumbnail: s50b.png
-tags: hardware
-category: hardware
+title: Paco
+date: 2023-06-02
+thumbnail: paco.jpg
+tags: human
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
-![](/images/s50b/4.jpg)
-
-https://www.notebookcheck.net/Toshiba-Satellite-S50-B-12U-Notebook-Review.133593.0.html
-
-ASD Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices vestibulum nulla, nec fringilla purus iaculis sed. Curabitur nec nibh dolor. Mauris vel volutpat lorem. Aliquam erat volutpat. Ut congue risus et nunc lobortis iaculis. Pellentesque tristique, lectus eu auctor facilisis, sem purus viverra tellus, non faucibus velit lacus at justo. Quisque nec metus eleifend, congue tortor ut, pulvinar lectus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices vestibulum nulla, nec fringilla purus iaculis sed. Curabitur nec nibh dolor. Mauris vel volutpat lorem. Aliquam erat volutpat. Ut congue risus et nunc lobortis iaculis. Pellentesque tristique, lectus eu auctor facilisis, sem purus viverra tellus, non faucibus velit lacus at justo. Quisque nec metus eleifend, congue tortor ut, pulvinar lectus.
 
 Fusce non urna id justo volutpat vestibulum. Sed sagittis, neque eu eleifend consectetur, felis lectus interdum nulla, eu convallis ex nunc et turpis. Nullam nec purus lectus. Etiam venenatis congue varius. Nulla vitae felis urna. Nulla feugiat tellus mauris, at posuere metus aliquet sed. Curabitur eu neque feugiat, condimentum est vitae, ullamcorper mauris. Donec ultricies ligula sed elit elementum eleifend. Proin suscipit interd.
 
