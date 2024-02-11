@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "428336b94ec07489",
+        "id": "e18bfa6f6b1619b5",
         "type": "tabs",
         "children": [
           {
-            "id": "1165358b2db2da5b",
+            "id": "1fd55c7ddf0cf52e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uses.md",
+                "file": "windows/windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 200
   },
   "right": {
     "id": "cb77c7b42f2bde56",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "uses.md",
+                "file": "windows/windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "uses.md",
+                "file": "windows/windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "uses.md"
+                "file": "windows/windows.md"
               }
             }
           }
@@ -146,11 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1165358b2db2da5b",
+  "active": "1fd55c7ddf0cf52e",
   "lastOpenFiles": [
-    "arch-linux.md",
+    "windows/razones.md",
+    "windows/windows.md",
+    "computing/platforms/windows",
+    "computing/platforms",
+    "computing",
+    "eclipse/eclipse.md",
+    "windows/windows.json",
+    "windows/posts.json",
+    "windows",
+    "eclipse/exportar-proyecto.md",
+    "eclipse/importar-proyecto.md",
+    "eclipse/shorcuts.md",
+    "eclipse/eclipse.json",
+    "eclipse/posts.json",
+    "eclipse/instalacion.md",
+    "eclipse/01-instalacion.md",
+    "eclipse",
+    "md.md",
+    "sm/uses.md",
+    "sm/arch-linux.md",
+    "sm/t430.md",
+    "sm/c875.md",
+    "sm/android.md",
+    "sm/my-computing.md",
     "_/files/objectaid-1.2.4.zip",
-    "_/files",
     "_/icons/custom/youtube.svg",
     "_/icons/custom/Windows.svg",
     "_/icons/custom/whatsapp.svg",
@@ -161,18 +183,9 @@
     "_/icons/custom/topg.svg",
     "_/icons/custom/tiktok.svg",
     "_/icons/custom/telegram.svg",
-    "_/icons/custom",
-    "_/icons",
-    "_/New folder",
-    "_/custom",
-    "eclipse.md",
     "c875.md",
     "my-computing.md",
     "t430.md",
-    "_/images",
-    "_",
-    "uses.md",
-    "windows.md",
-    "writings.njk"
+    "windows.md"
   ]
 }
